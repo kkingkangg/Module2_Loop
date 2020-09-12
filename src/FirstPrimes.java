@@ -7,7 +7,7 @@ public class FirstPrimes {
         int cout = 1;
         int num = 2;
 
-        while (num<=limit){
+        while (cout<=limit){
             if (checkPrime(num)) {
                 System.out.print(num + ",");
                 cout++;
